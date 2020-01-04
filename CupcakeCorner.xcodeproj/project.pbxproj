@@ -13,6 +13,9 @@
 		E2A3147723C09D9400F576BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A3147623C09D9400F576BE /* Assets.xcassets */; };
 		E2A3147A23C09D9400F576BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A3147923C09D9400F576BE /* Preview Assets.xcassets */; };
 		E2A3147D23C09D9400F576BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A3147B23C09D9400F576BE /* LaunchScreen.storyboard */; };
+		E2A3148523C0EC3400F576BE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3148423C0EC3400F576BE /* Order.swift */; };
+		E2A3148723C0EDEF00F576BE /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3148623C0EDEF00F576BE /* AddressView.swift */; };
+		E2A3148923C0EF4600F576BE /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A3148823C0EF4600F576BE /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E2A3147923C09D9400F576BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2A3147C23C09D9400F576BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2A3147E23C09D9400F576BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A3148423C0EC3400F576BE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E2A3148623C0EDEF00F576BE /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		E2A3148823C0EF4600F576BE /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E2A3147B23C09D9400F576BE /* LaunchScreen.storyboard */,
 				E2A3147E23C09D9400F576BE /* Info.plist */,
 				E2A3147823C09D9400F576BE /* Preview Content */,
+				E2A3148423C0EC3400F576BE /* Order.swift */,
+				E2A3148623C0EDEF00F576BE /* AddressView.swift */,
+				E2A3148823C0EF4600F576BE /* CheckoutView.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -148,7 +157,10 @@
 			files = (
 				E2A3147123C09D9200F576BE /* AppDelegate.swift in Sources */,
 				E2A3147323C09D9200F576BE /* SceneDelegate.swift in Sources */,
+				E2A3148923C0EF4600F576BE /* CheckoutView.swift in Sources */,
+				E2A3148523C0EC3400F576BE /* Order.swift in Sources */,
 				E2A3147523C09D9200F576BE /* ContentView.swift in Sources */,
+				E2A3148723C0EDEF00F576BE /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
